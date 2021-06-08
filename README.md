@@ -1,12 +1,13 @@
 # Amazon-Fine-Food-Reviews-Analysis
 Performed Exploratory Data Analysis, Data Cleaning, Data Visualization and Text Featurization(tfidf). Build MultiNomial Naive Bayes to classify the polarity of the review.
 
-Objective:
+# Objective:
 Given a text review, determine the sentiment of the review whether its positive or negative.
 
-Data Source: https://www.kaggle.com/snap/amazon-fine-food-reviews
+# Data Source: 
+https://www.kaggle.com/snap/amazon-fine-food-reviews
 
-About Dataset :
+# About Dataset :
 The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon.
 
 Number of reviews: 568,454
@@ -20,7 +21,7 @@ Timespan: Oct 1999 - Oct 2012
 Number of Attributes/Columns in data: 10
 
 
-Attribute Information:
+# Attribute Information:
 
 Id
 
@@ -45,7 +46,7 @@ Text - text of the review
 1 Amazon Food Reviews EDA, NLP, Text Preprocessing and Visualization using TSNE
 
 
-Defined Problem Statement : 
+# Defined Problem Statement : 
 
 Performed Exploratory Data Analysis(EDA) on Amazon Fine Food Reviews Dataset plotted Word Clouds, Distplots, Histograms, etc.
 
@@ -54,7 +55,7 @@ Performed Data Cleaning & Data Preprocessing by removing unneccesary and duplica
 Documented the concepts clearly
 
 
-Naive Bayes:
+# Naive Bayes:
 
 Applied Naive Bayes using Multinomial NB on TF-IDF Featurization of Data.
 
@@ -63,7 +64,7 @@ Evaluated the test data on various performance metrics like accuracy, f1-score, 
 Printed Top 10 Important Features for both Negative and Positive Reviews
 
 
-Conclusions:
+# Conclusions:
 
 Naive Bayes is much faster algorithm than a Random Model.
 
